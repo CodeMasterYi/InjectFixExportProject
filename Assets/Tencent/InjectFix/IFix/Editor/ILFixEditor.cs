@@ -84,7 +84,7 @@ namespace IFix.Editor
             {
                 UnityEngine.Debug.LogError("can not find mono!");
             }
-            var inject_tool_path = "./IFixToolKit/IFix.exe";
+            var inject_tool_path = "./Assets/Tencent/InjectFix/IFixToolKit/IFix.exe";
             //"--runtime = v4.0.30319"
             if (!File.Exists(inject_tool_path))
             {
